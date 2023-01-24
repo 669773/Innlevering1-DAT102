@@ -9,10 +9,11 @@ public class Film {
 	enum Sjanger();
 	String selskap;
 
-	public static void filmobjekt{
+	public Filmobjekt(int filmnr, String prodNavn, String FilmTittel,int lansering,enum Sjanger,String selskap){
+		this.filmnr = filmnr;
 		
 	}
 /*
- 
+ enum må fikses
  */
 }
